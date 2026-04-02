@@ -1,0 +1,10 @@
+id: 004-compositor
+title: "Compositor -- render windows onto the shared framebuffer"
+status: draft
+priority: high
+depends_on:
+  - "001-window-manager"
+labels:
+  - autospec
+  - spec-defined
+github_issues: []

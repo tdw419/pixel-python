@@ -1,0 +1,10 @@
+id: 007-ipc-signals
+title: "IPC Signals -- inter-process signals and shared memory regions"
+status: draft
+priority: medium
+depends_on:
+  - "002-process-table"
+labels:
+  - autospec
+  - spec-defined
+github_issues: []

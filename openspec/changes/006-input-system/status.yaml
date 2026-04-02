@@ -1,0 +1,11 @@
+id: 006-input-system
+title: "Input System -- event queue and focus-based routing"
+status: draft
+priority: medium
+depends_on:
+  - "001-window-manager"
+  - "002-process-table"
+labels:
+  - autospec
+  - spec-defined
+github_issues: []

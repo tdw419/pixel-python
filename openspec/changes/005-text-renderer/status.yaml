@@ -1,0 +1,10 @@
+id: 005-text-renderer
+title: "Text Renderer -- bitmap font and scrollable text buffer"
+status: draft
+priority: high
+depends_on:
+  - "001-window-manager"
+labels:
+  - autospec
+  - spec-defined
+github_issues: []

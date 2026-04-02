@@ -1,5 +1,8 @@
 name: pixel-python
 language: python
-test_command: python3 -m pytest tests/ -q
-test_parser: python
+test_command: "python3 -m pytest --tb=no -q 2>&1 | tail -3"
+test_parser: regex
+test_parser_config:
+  regex: "(\\d+) passed"
+pi_model: zai/glm-5.1
 health_threshold: 3

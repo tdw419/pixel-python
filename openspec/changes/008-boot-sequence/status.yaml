@@ -1,0 +1,13 @@
+id: 008-boot-sequence
+title: "Boot Sequence -- init system and main loop"
+status: draft
+priority: medium
+depends_on:
+  - "001-window-manager"
+  - "002-process-table"
+  - "003-scheduler"
+  - "004-compositor"
+labels:
+  - autospec
+  - spec-defined
+github_issues: []
