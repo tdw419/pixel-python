@@ -1,0 +1,11 @@
+[project]
+name = "pixel-python"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["numpy", "cupy-cuda12x"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+pixel-python = "pixel_python.cli:main"

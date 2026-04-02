@@ -1,0 +1,5 @@
+name: pixel-python
+language: python
+test_command: python3 -m pytest tests/ -q
+test_parser: python
+health_threshold: 3
